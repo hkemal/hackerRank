@@ -16,6 +16,7 @@ public class CompareTheTriplets {
         Scanner scannerB = new Scanner(System.in);
         List<Integer> b = Stream.of(scannerB.nextLine().split(" ")).map(Integer::parseInt).collect(toList());
         List<Integer> result = ResultCompareTheTriplets.compareTriplets(a, b);
+        result.stream().forEach(System.out::println);
     }
 }
 
