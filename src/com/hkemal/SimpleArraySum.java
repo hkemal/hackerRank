@@ -15,12 +15,12 @@ public class SimpleArraySum {
         Integer arCount = scanner.nextInt();
         Scanner scannerArr = new Scanner(System.in);
         List<Integer> ar = Stream.of(scannerArr.nextLine().split(" ")).map(Integer::parseInt).collect(toList());
-        int result = Result.simpleArraySum(ar);
+        int result = ResultSimpleArraySum.simpleArraySum(ar);
         System.out.println(result);
     }
 }
 
-class Result {
+class ResultSimpleArraySum {
 
     /*
      * Complete the 'simpleArraySum' function below.
