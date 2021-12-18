@@ -1,8 +1,6 @@
 package com.hkemal;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Stream;
