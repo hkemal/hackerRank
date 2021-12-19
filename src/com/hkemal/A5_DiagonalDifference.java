@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class DiagonalDifference {
+public class A5_DiagonalDifference {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         Integer n = Integer.parseInt(scanner.nextLine().trim());

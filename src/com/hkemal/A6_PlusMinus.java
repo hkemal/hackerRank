@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class PlusMinus {
+public class A6_PlusMinus {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Integer n = Integer.parseInt(scanner.nextLine().trim());

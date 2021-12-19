@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class CompareTheTriplets {
+public class A3_CompareTheTriplets {
     public static void main(String[] args) throws IOException {
         Scanner scannerA = new Scanner(System.in);
         List<Integer> a = Stream.of(scannerA.nextLine().split(" ")).map(Integer::parseInt).collect(toList());

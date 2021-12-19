@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class SimpleArraySum {
+public class A2_SimpleArraySum {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         Integer arCount = scanner.nextInt();

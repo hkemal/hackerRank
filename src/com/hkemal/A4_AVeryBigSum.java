@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class AVeryBigSum {
+public class A4_AVeryBigSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Integer arCount = scanner.nextInt();
