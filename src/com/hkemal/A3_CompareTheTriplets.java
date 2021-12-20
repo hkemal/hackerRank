@@ -21,7 +21,6 @@ public class A3_CompareTheTriplets {
 }
 
 class ResultCompareTheTriplets {
-
     /*
      * Complete the 'compareTriplets' function below.
      *
@@ -30,7 +29,6 @@ class ResultCompareTheTriplets {
      *  1. INTEGER_ARRAY a
      *  2. INTEGER_ARRAY b
      */
-
     public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
         List<Integer> result = new ArrayList<>();
         final Integer[] countA = {0};
@@ -43,6 +41,5 @@ class ResultCompareTheTriplets {
         result.add(countB[0]);
         return result;
     }
-
 }
 
