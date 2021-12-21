@@ -26,7 +26,6 @@ class ResultBirthdayCakeCandles {
      * The function is expected to return an INTEGER.
      * The function accepts INTEGER_ARRAY candles as parameter.
      */
-
     public static int birthdayCakeCandles(List<Integer> candles) {
         // Write your code here
         return Collections.frequency(candles, Collections.max(candles));
