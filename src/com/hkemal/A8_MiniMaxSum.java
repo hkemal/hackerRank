@@ -16,13 +16,11 @@ public class A8_MiniMaxSum {
 }
 
 class ResultMiniMaxSum {
-
     /*
      * Complete the 'miniMaxSum' function below.
      *
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
-
     public static void miniMaxSum(List<Long> arr) {
         // Write your code here
         Long max = Collections.max(arr);
@@ -30,6 +28,5 @@ class ResultMiniMaxSum {
         Long total = arr.stream().reduce(0L, (num1, num2) -> num1 + num2);
         System.out.println(total - max + " " + (total - min));
     }
-
 }
 
