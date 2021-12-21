@@ -18,14 +18,12 @@ public class A6_PlusMinus {
 }
 
 class ResultPlusMinus {
-
     /*
      * Complete the 'simpleArraySum' function below.
      *
      * The function is expected to return an INTEGER.
      * The function accepts INTEGER_ARRAY ar as parameter.
      */
-
     public static void plusMinus(List<Integer> arr) {
         Integer countPositive = 0;
         Integer countNegative = 0;
@@ -39,7 +37,6 @@ class ResultPlusMinus {
             else if (isNegative.test(item)) countNegative++;
             else if (isZero.test(item)) countZero++;
         }
-
         System.out.println(String.format("%.6f", (float) countPositive / arr.size()));
         System.out.println(String.format("%.6f", (float) countNegative / arr.size()));
         System.out.println(String.format("%.6f", (float) countZero / arr.size()));
