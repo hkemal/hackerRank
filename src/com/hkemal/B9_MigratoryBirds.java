@@ -31,7 +31,7 @@ class ResultMigratoryBirds {
         Collections.sort(arr);
         Integer lowestMostFrequency = 0;
         Integer maxCount = 0;
-        Integer count = 0;
+        Integer count = 1;
         BiPredicate<Integer, Integer> isGreaterOrEqual = (number1, number2) -> number1 >= number2;
         for (int i = arr.size() - 2; i > 0; i--) {
             if (arr.get(i) == arr.get(i + 1)) {
