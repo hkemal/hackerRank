@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class D2_DesignerPDFViewer {
+public class D3_DesignerPDFViewer {
     public static void main(String[] args) throws ParseException {
         Scanner in = new Scanner(System.in);
         List<Integer> h = Stream.of(in.nextLine().replaceAll("\\s+$", "").split(" "))
