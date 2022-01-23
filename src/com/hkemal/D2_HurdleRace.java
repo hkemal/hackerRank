@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class D1_HurdleRace {
+public class D2_HurdleRace {
     public static void main(String[] args) throws ParseException {
         Scanner in = new Scanner(System.in);
         String[] firstMultipleInput = in.nextLine().replaceAll("\\s+$", "").split(" ");
