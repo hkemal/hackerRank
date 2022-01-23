@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class D1_MagicSquare {
+public class C8_MagicSquare {
     public static void main(String[] args) throws ParseException {
         Scanner in = new Scanner(System.in);
         List<List<Integer>> s = new ArrayList<>();
