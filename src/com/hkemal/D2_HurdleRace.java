@@ -4,7 +4,6 @@ import java.text.ParseException;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import java.util.function.IntPredicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
