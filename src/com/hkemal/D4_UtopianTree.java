@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class D3_UtopianTree {
+public class D4_UtopianTree {
     public static void main(String[] args) throws ParseException {
         Scanner in = new Scanner(System.in);
         int t = Integer.parseInt(in.nextLine().trim());
