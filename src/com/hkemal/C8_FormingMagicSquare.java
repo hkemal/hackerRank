@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class C8_MagicSquare {
+public class C8_FormingMagicSquare {
     public static void main(String[] args) throws ParseException {
         Scanner in = new Scanner(System.in);
         List<List<Integer>> s = new ArrayList<>();
@@ -20,13 +20,13 @@ public class C8_MagicSquare {
                             .collect(Collectors.toList())
             );
         });
-        int result = ResultMagicSquare.formingMagicSquare(s);
+        int result = ResultFormingMagicSquare.formingMagicSquare(s);
         System.out.println(result);
     }
 
 }
 
-class ResultMagicSquare {
+class ResultFormingMagicSquare {
     /*
      * Complete the 'formingMagicSquare' function below.
      *
@@ -46,8 +46,8 @@ class ResultMagicSquare {
         wholeMagicSquares.add(Arrays.asList(Arrays.asList(new Integer[]{8, 1, 6}), Arrays.asList(new Integer[]{3, 5, 7}), Arrays.asList(new Integer[]{4, 9, 2})));
         wholeMagicSquares.add(Arrays.asList(Arrays.asList(new Integer[]{8, 3, 4}), Arrays.asList(new Integer[]{1, 5, 9}), Arrays.asList(new Integer[]{6, 7, 2})));
         wholeMagicSquares.stream().forEach(item -> {
-            if (ResultMagicSquare.findAbsouluteDifference(item, s) < absouluteDifference[0]) {
-                absouluteDifference[0] = ResultMagicSquare.findAbsouluteDifference(item, s);
+            if (ResultFormingMagicSquare.findAbsouluteDifference(item, s) < absouluteDifference[0]) {
+                absouluteDifference[0] = ResultFormingMagicSquare.findAbsouluteDifference(item, s);
             }
         });
         return absouluteDifference[0];
