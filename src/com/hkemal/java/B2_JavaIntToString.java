@@ -3,7 +3,7 @@ package com.hkemal.java;
 import java.security.Permission;
 import java.util.Scanner;
 
-public class B1_JavaIntToString {
+public class B2_JavaIntToString {
     public static void main(String[] args) {
 
         DoNotTerminate.forbidExit();
