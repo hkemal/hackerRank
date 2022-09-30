@@ -1,4 +1,4 @@
-package com.hkemal.java;
+package com.hkemal.java.introduction;
 
 import java.io.IOException;
 import java.text.NumberFormat;

@@ -1,4 +1,4 @@
-package com.hkemal.java;
+package com.hkemal.java.advanced;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.hkemal.java;
+package com.hkemal.java.introduction;
 
 import java.util.Scanner;
 

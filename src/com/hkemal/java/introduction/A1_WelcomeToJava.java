@@ -1,4 +1,4 @@
-package com.hkemal.java;
+package com.hkemal.java.introduction;
 
 public class A1_WelcomeToJava {
     public static void main(String[] args) {
