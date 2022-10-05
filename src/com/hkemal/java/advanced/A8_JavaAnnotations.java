@@ -31,7 +31,7 @@ class FamilyMember {
     }
 }
 
-public class B5_JavaAnnotations {
+public class A8_JavaAnnotations {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
