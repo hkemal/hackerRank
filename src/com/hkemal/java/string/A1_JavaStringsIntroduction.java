@@ -2,7 +2,7 @@ package com.hkemal.java.string;
 
 import java.util.Scanner;
 
-public class A1_JavaString {
+public class A1_JavaStringsIntroduction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String A = sc.next();
