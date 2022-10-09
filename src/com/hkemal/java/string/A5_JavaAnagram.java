@@ -3,7 +3,7 @@ package com.hkemal.java.string;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class A5_JavaStringAnagram {
+public class A5_JavaAnagram {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String a = scan.next();

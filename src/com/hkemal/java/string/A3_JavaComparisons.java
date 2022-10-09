@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class A3_JavaStringsCompare {
+public class A3_JavaComparisons {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String s = scan.next();
