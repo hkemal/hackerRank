@@ -3,7 +3,7 @@ package com.hkemal.java.string;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class A7_JavaPatternSyntacChecker {
+public class A7_JavaPatternSyntaxChecker {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
