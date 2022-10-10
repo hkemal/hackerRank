@@ -13,7 +13,7 @@ public class A1_JavaTryCatch {
         } catch (InputMismatchException inputMismatchException) {
             System.out.println(inputMismatchException.getClass().getName());
         } catch (ArithmeticException arithmeticException) {
-            System.out.println(arithmeticException.getClass().getName() + ": / by zero");
+            System.out.println(arithmeticException.toString());
         }
     }
 
