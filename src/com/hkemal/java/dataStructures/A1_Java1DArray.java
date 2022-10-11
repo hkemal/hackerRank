@@ -1,4 +1,4 @@
-package com.hkemal.java.dataStractures;
+package com.hkemal.java.dataStructures;
 
 import java.util.Scanner;
 
