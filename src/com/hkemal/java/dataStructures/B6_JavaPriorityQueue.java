@@ -74,6 +74,7 @@ class Priorities {
         while (!queue.isEmpty()) {
             students.add(queue.poll());
         }
+
         return students;
     }
 }
